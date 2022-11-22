@@ -1,6 +1,6 @@
 const express = require('express');
 const htmlRoutes = require('./routes/htmlroutes');
-
+const apiRoutes= require('./routes/apiroutes');
 
 //For when you send to Heroku. 
 const PORT = process.env.PORT || 9002;
@@ -12,8 +12,8 @@ const app = express();
 app.use(express.static('public'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
-app.use(htmlRoutes)
+app.use(apiRoutes);
+app.use(htmlRoutes);
 
 //The following API routes should be created:
 
