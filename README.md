@@ -9,7 +9,7 @@ I don't know about you, but every day there's at least 2-3 things I write down a
 
 ![note](./public/assets/css/images/amysNote.png)
 
-You can create your own notes, by visiting my [deployed site](https://damp-escarpment-46573.herokuapp.com/)! This was deployed using Heroku, which is a platform that allows its' users to create, run and operate applications in the &#9729; .
+You can create your own notes, by visiting my [deployed site](https://note-taker-amy.herokuapp.com/)! This was deployed using Heroku, which is a platform that allows its' users to create, run and operate applications in the &#9729; .
 
  
 
